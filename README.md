@@ -7,7 +7,7 @@ Mention will use with id, icon only
 ![Sample](dist/sample.gif?raw=true "Sample")
 
 # Installation
-- Download extension file [chatwork-helper.crx](dist/chatwork-helper.crx)
+- Download extension file [chatwork-helper.crx](dist/chatwork-helper.crx?raw=true)
 - Drag and drop to Chrome extensions page: chrome://extensions/
 - Restart Chrome
 
