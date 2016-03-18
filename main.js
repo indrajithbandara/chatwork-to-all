@@ -1,13 +1,14 @@
 function main () {
   (function() {
+    var RE = /@all\s/;
     document.getElementById('_chatText').addEventListener('blur', function(e){
-      if (/@all/.test(e.target.value)) {
+      if (RE.test(e.target.value)) {
         var toStr = "";
         var members = RM.getSortedMemberList();
         members.forEach(function(id) {
           toStr += "[To:" + id + "] ";
         });
-        e.target.value = e.target.value.replace(/@all/, toStr);
+        e.target.value = e.target.value.replace(RE, toStr);
       }
     });
   })();
