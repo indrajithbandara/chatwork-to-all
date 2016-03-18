@@ -6,9 +6,8 @@ Mention will use with id, icon only
 
 ![Sample](dist/sample.gif?raw=true "Sample")
 
-# Installation
-- Download extension file [chatwork-to-all.crx](dist/chatwork-to-all.crx?raw=true)
-- Drag and drop to Chrome extensions page: chrome://extensions/
+# Install from Chrome Extension Store
+- [Chatwork To All](https://chrome.google.com/webstore/detail/chatwork-to-all/pfaadngdpaokechkeccaimodnieinmlo)
 
 # Note
 - Moving mouse out of text box to make it work.
