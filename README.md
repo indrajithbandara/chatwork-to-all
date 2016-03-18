@@ -9,7 +9,6 @@ Mention will use with id, icon only
 # Installation
 - Download extension file [chatwork-to-all.crx](dist/chatwork-to-all.crx?raw=true)
 - Drag and drop to Chrome extensions page: chrome://extensions/
-- Restart Chrome
 
 # Note
 - Moving mouse out of text box to make it work.
