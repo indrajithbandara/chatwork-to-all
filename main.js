@@ -1,7 +1,9 @@
 function main () {
   (function() {
     var RE = /@all\s/;
-    document.getElementById('_chatText').addEventListener('blur', function(e){
+
+    // CS: ChatSend object
+    CS.chatTextKeyUp = function(e){
       if (RE.test(e.target.value)) {
         var toStr = "";
         var members = RM.getSortedMemberList();
@@ -10,7 +12,7 @@ function main () {
         });
         e.target.value = e.target.value.replace(RE, toStr);
       }
-    });
+    };
   })();
 }
 
