@@ -26,7 +26,9 @@ function main() {
         var members = RM.getSortedMemberList() || [];
 
         members.forEach(function(id) {
-          toStr += "[To:" + id + "] ";
+          if (id != AC.myid) {
+            toStr += "[To:" + id + "] ";
+          }
         });
         chatText.val(chatText.val().replace(RE, toStr));
       }
