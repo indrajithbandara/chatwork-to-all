@@ -13,4 +13,3 @@ Mention will use with id, icon only
 - [Chatwork To All](https://chrome.google.com/webstore/detail/chatwork-to-all/pfaadngdpaokechkeccaimodnieinmlo)
 
 # Note
-- Moving mouse out of text box to make it work.
